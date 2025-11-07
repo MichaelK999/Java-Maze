@@ -13,7 +13,7 @@ function App() {
         
         {/* Subtitle */}
         <p className="text-lg text-gray-700 tracking-wide mt-2">
-          A maze game developed at UoY!
+          A maze game developed at UoY
         </p>
         
         {/* Instructions Section */}
@@ -48,7 +48,7 @@ function App() {
         
         {/* Download Button */}
         <a 
-          href="/uni-maze.jar" 
+          href="uni-maze.jar" 
           download="uni-maze.jar"
           className="mt-4 px-8 py-3 bg-gray-900 text-white font-bold text-lg tracking-wide hover:bg-gray-700 transition-colors self-start"
         >
