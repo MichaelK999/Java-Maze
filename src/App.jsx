@@ -13,7 +13,7 @@ function App() {
         
         {/* Subtitle */}
         <p className="text-lg text-gray-700 tracking-wide mt-2">
-          A maze game developed at UoY
+          A maze game developed at UoY!
         </p>
         
         {/* Instructions Section */}
