@@ -77,6 +77,28 @@ function App() {
           />
         </div>
       </div>
+
+      {/* WEEKLY PLAN SECTION */}
+      <div className="w-full max-w-6xl mt-16">
+        <h3 className="text-xl font-bold text-gray-900 mb-3">PLAN</h3>
+        <div className="w-full border border-gray-300 bg-white p-4">
+          <img 
+            src="table1.png" 
+            alt="UML Diagram" 
+            className="w-full h-auto"
+          />
+          <img 
+            src="table2.png" 
+            alt="UML Diagram" 
+            className="w-full h-auto"
+          />
+          <img 
+            src="table3.png" 
+            alt="UML Diagram" 
+            className="w-full h-auto"
+          />
+        </div>
+      </div>
       
       {/* PDF Viewers - Wider Section */}
       <div className="w-full max-w-6xl mt-16 space-y-8">
