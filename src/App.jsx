@@ -46,15 +46,36 @@ function App() {
           <p className="mt-1">in the terminal</p>
         </div>
         
-        {/* Download Button */}
-        <a 
-          href="uni-maze.jar" 
-          download="uni-maze.jar"
-          className="mt-4 px-8 py-3 bg-gray-900 text-white font-bold text-lg tracking-wide hover:bg-gray-700 transition-colors self-start"
-        >
-          DOWNLOAD NOW
-        </a>
+        {/* Download Buttons */}
+        <div className="flex gap-4 mt-4">
+          <a 
+            href="uni-maze.jar" 
+            download="uni-maze.jar"
+            className="px-8 py-3 bg-gray-900 text-white font-bold text-lg tracking-wide hover:bg-gray-700 transition-colors"
+          >
+            DOWNLOAD JAR
+          </a>
+          <a 
+            href="uni-maze-zip.zip" 
+            download="uni-maze-zip.zip"
+            className="px-8 py-3 bg-gray-900 text-white font-bold text-lg tracking-wide hover:bg-gray-700 transition-colors"
+          >
+            DOWNLOAD ZIP
+          </a>
+        </div>
         
+      </div>
+      
+      {/* UML Diagram Section */}
+      <div className="w-full max-w-6xl mt-16">
+        <h3 className="text-xl font-bold text-gray-900 mb-3">UML Diagram</h3>
+        <div className="w-full border border-gray-300 bg-white p-4">
+          <img 
+            src="UML_DIAGRAM.png" 
+            alt="UML Diagram" 
+            className="w-full h-auto"
+          />
+        </div>
       </div>
       
       {/* PDF Viewers - Wider Section */}
@@ -69,12 +90,14 @@ function App() {
           />
         </div>
 
-        {/* Arch1.pdf - Placeholder */}
+        {/* Arch1.pdf */}
         <div className="w-full">
           <h3 className="text-xl font-bold text-gray-900 mb-3">Architecture</h3>
-          <div className="w-full h-[800px] border border-gray-300 flex items-center justify-center bg-gray-100">
-            <p className="text-gray-500 text-lg">ARCHONE</p>
-          </div>
+          <iframe 
+            src="arch1.pdf" 
+            className="w-full h-[800px] border border-gray-300"
+            title="Architecture Document"
+          />
         </div>
 
         {/* Plan1.pdf */}
