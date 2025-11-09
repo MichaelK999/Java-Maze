@@ -106,7 +106,7 @@ function App() {
         <div className="w-full">
           <h3 className="text-xl font-bold text-gray-900 mb-3">Requirements</h3>
           <iframe 
-            src="Req1.pdf" 
+            src="req1.pdf" 
             className="w-full h-[800px] border border-gray-300"
             title="Requirements Document"
           />
@@ -116,7 +116,7 @@ function App() {
         <div className="w-full">
           <h3 className="text-xl font-bold text-gray-900 mb-3">Architecture</h3>
           <iframe 
-            src="Arch1.pdf" 
+            src="arch1.pdf" 
             className="w-full h-[800px] border border-gray-300"
             title="Architecture Document"
           />
@@ -126,7 +126,7 @@ function App() {
         <div className="w-full">
           <h3 className="text-xl font-bold text-gray-900 mb-3">Planning</h3>
           <iframe 
-            src="Plan1.pdf" 
+            src="plan1.pdf" 
             className="w-full h-[800px] border border-gray-300"
             title="Planning Document"
           />
@@ -136,7 +136,7 @@ function App() {
         <div className="w-full">
           <h3 className="text-xl font-bold text-gray-900 mb-3">Risk Assessment</h3>
           <iframe 
-            src="Risk1.pdf" 
+            src="risk1.pdf" 
             className="w-full h-[800px] border border-gray-300"
             title="Risk Assessment Document"
           />
@@ -146,7 +146,7 @@ function App() {
         <div className="w-full">
           <h3 className="text-xl font-bold text-gray-900 mb-3">Implementation</h3>
           <iframe 
-            src="Impl1.pdf" 
+            src="impl1.pdf" 
             className="w-full h-[800px] border border-gray-300"
             title="Implementation Document"
           />
