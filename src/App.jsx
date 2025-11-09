@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center pt-[25vh] px-8">
+    <div className="min-h-screen bg-gray-50 flex flex-col items-center pt-[25vh] px-8 pb-12">
       <div className="flex flex-col">
         
         {/* Game Title */}
@@ -55,6 +55,57 @@ function App() {
           DOWNLOAD NOW
         </a>
         
+      </div>
+      
+      {/* PDF Viewers - Wider Section */}
+      <div className="w-full max-w-6xl mt-16 space-y-8">
+        {/* Req1.pdf */}
+        <div className="w-full">
+          <h3 className="text-xl font-bold text-gray-900 mb-3">Requirements</h3>
+          <iframe 
+            src="req1.pdf" 
+            className="w-full h-[800px] border border-gray-300"
+            title="Requirements Document"
+          />
+        </div>
+
+        {/* Arch1.pdf - Placeholder */}
+        <div className="w-full">
+          <h3 className="text-xl font-bold text-gray-900 mb-3">Architecture</h3>
+          <div className="w-full h-[800px] border border-gray-300 flex items-center justify-center bg-gray-100">
+            <p className="text-gray-500 text-lg">ARCHONE</p>
+          </div>
+        </div>
+
+        {/* Plan1.pdf */}
+        <div className="w-full">
+          <h3 className="text-xl font-bold text-gray-900 mb-3">Planning</h3>
+          <iframe 
+            src="plan1.pdf" 
+            className="w-full h-[800px] border border-gray-300"
+            title="Planning Document"
+          />
+        </div>
+
+        {/* Risk1.pdf */}
+        <div className="w-full">
+          <h3 className="text-xl font-bold text-gray-900 mb-3">Risk Assessment</h3>
+          <iframe 
+            src="risk1.pdf" 
+            className="w-full h-[800px] border border-gray-300"
+            title="Risk Assessment Document"
+          />
+        </div>
+
+        {/* Impl1.pdf */}
+        <div className="w-full">
+          <h3 className="text-xl font-bold text-gray-900 mb-3">Implementation</h3>
+          <iframe 
+            src="impl1.pdf" 
+            className="w-full h-[800px] border border-gray-300"
+            title="Implementation Document"
+          />
+        </div>
       </div>
     </div>
   )
